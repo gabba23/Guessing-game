@@ -28,7 +28,7 @@ if($submitButton){
         
         else 
         {
-            echo "you shall live";
+            echo "You live to die another day";
         }
     }
 }
