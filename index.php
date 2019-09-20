@@ -1,3 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+</body>
+</html>
+
 <?php
 
 
@@ -10,25 +24,24 @@ $randomNumber = rand(1, 10);
 
 ?>
 
-<form action="" method="POST" >
-Guess the number beween 1 and 10, or you die
+<form class="all" action="" method="POST" >
+<p class="the_text" >Guess the number beween 1 and 10, or you die </p>
 <input type="text" name="number_entered">
-I'm not playing games, i've got your wife
+<p class="the_text" >I'm not playing games, i've got your wife.<br> </p>
 <br>
-
 <?php
 
 
 if($submitButton){
     if(($number > 0) && ($number < 11)) {
         if($number!=$randomNumber){
-            echo "You've done goofed, because number was $randomNumber ";
+
+            echo " <p style='color:red;'> You've done goofed, because number was $randomNumber ";
         }
 
-        
         else 
         {
-            echo "You live to die another day";
+            echo "<p style='color:red;'> You live to die another day </p>";
         }
     }
 }

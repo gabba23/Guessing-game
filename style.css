@@ -1,0 +1,25 @@
+input {
+    background-color: #fe1354;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+body {
+    background-image: url('forest.jpg');
+}
+
+.the_text {
+    color: #d3fe13;
+}
+
+.all {
+    display: flex;
+   left: -50%;
+   align-content: center;
+   justify-content: center;
+   margin-top: 20%;
+}
